@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: calc(46rem + (var(--main-padding) * 2));
+  width: 100%;
+  padding: 0 var(--main-padding);
+
+  margin: 0 auto;
+}
+
+main > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 100%;
+
+  margin-top: calc(-1 * ((1.4rem + 2 * 1rem) / 2));
+}
