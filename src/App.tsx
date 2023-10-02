@@ -49,7 +49,7 @@ function App() {
     event.preventDefault();
 
     const newTaskObject = {
-      id: taskList.length + 1,
+      id: Date.now(),
       title: newTask,
       isCompleted: false,
     };
