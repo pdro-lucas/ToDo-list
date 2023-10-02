@@ -12,31 +12,32 @@ const tasks = [
   {
     id: 1,
     title:
-      'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer normal',
+      'Finalizar o relatório de desempenho do último trimestre e enviar para a diretoria',
     isCompleted: false,
   },
   {
     id: 2,
     title:
-      'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer normal',
+      'Organizar e agendar a reunião de planejamento estratégico com todas as partes interessadas',
     isCompleted: false,
   },
   {
     id: 3,
     title:
-      'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer normal',
+      'Revisar e atualizar toda a documentação técnica e de usuário do projeto',
     isCompleted: false,
   },
   {
     id: 4,
     title:
-      'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer normal',
+      'Preparar e conduzir a sessão de treinamento de integração para novos funcionários',
     isCompleted: false,
   },
   {
     id: 5,
-    title: 'Integer urna ',
-    isCompleted: true,
+    title:
+      'Conduzir uma revisão de código completa para garantir padrões de qualidade',
+    isCompleted: false,
   },
 ];
 
