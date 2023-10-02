@@ -1,0 +1,67 @@
+.tasks {
+  margin-top: 1.5rem;
+
+  font-size: 0.875rem;
+  line-height: 1.225rem;
+
+  color: var(--gray-100);
+
+  list-style: none;
+}
+
+.tasks li {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  font-weight: 400;
+
+  background: var(--gray-500);
+  border: 1px solid var(--Gray-400, #333);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.tasks li:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.tasks label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 1.09rem;
+  width: 1.09rem;
+
+  border: 2.3px solid var(--blue);
+  border-radius: 60px;
+}
+
+.tasks label[data-iscompleted='true'] {
+  background: var(--purple-dark);
+  border: none;
+}
+
+.tasks input[type='checkbox'] {
+  display: none;
+}
+
+.tasks span {
+  flex: 1;
+}
+
+.tasks span[data-iscompleted='true'] {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.tasks button {
+  color: var(--gray-300);
+  background: transparent;
+  border: none;
+
+  cursor: pointer;
+}
