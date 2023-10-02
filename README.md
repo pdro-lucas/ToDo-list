@@ -1,27 +1,48 @@
-# React + TypeScript + Vite
+# To-do List App com React e CSS Modules
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um projeto web de To-do List criado usando ReactJS e CSS Modules. O aplicativo permite que os usuários criem tarefas, marquem-nas como concluídas e as excluam. Este projeto foi desenvolvido como parte do curso Ignite da Rocketseat, focado em reforçar habilidades em ReactJS.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Criação de tarefas
+- Marcar tarefas como concluídas
+- Exclusão de tarefas
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Pré requisitos
 
-- Configure the top-level `parserOptions` property like this:
+Antes de começar, certifique-se de ter instalado:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- Node.js ou Bun
+- npm ou yarn
+
+1. Clone este repositório:
+
+```bash
+$ git clone https://github.com/pdro-lucas/ToDo-list.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+2. Vá para o diretório do projeto:
+
+```bash
+$ cd ToDo-list
+```
+
+3. Instale as dependências:
+
+```bash
+# Com npm
+$ npm install
+
+# Com yarn
+$ yarn
+
+# Com bun
+$ bun install
+```
+
+## Design da aplicação
+
+https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate
